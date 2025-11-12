@@ -19,6 +19,8 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
 
+For detailed role descriptions, see [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md).
+
 ## Project One-pager Template
 - Project name:
 - Problem statement:
@@ -32,9 +34,17 @@ Whenever a new project idea or feature proposal is ready to be explored.
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Key roles identified and assigned (see [roles-and-personas.md](octoacme-roles-and-personas.md)):
+  - [ ] Project Manager assigned
+  - [ ] Product Manager assigned
+  - [ ] Tech Lead assigned (for technical projects)
+  - [ ] UX Designer assigned (if user-facing features)
+  - [ ] QA Automation Engineer identified for test strategy
+  - [ ] Support Lead consulted (if customer-impacting)
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Schedule kickoff meeting with all key stakeholders and role owners
 
 ## Decision Gate
 Move to planning when:
