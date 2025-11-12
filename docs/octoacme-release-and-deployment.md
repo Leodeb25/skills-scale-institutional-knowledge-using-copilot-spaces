@@ -13,14 +13,25 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Passing CI and security scans
 - Release notes drafted
 - Rollback / mitigation plan documented
-- Smoke tests prepared
+- Smoke tests prepared and executed by QA Automation Engineer
+- UI/UX review completed by UX Designer (for user-facing changes)
+- Tech Lead approval for architectural/technical changes
+- Support readiness confirmed with Support Lead
+  - Support documentation and FAQs updated
+  - Support team trained on new features
+  - Known issues documented
+
+For role-specific responsibilities, see [roles-and-personas.md](octoacme-roles-and-personas.md).
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
-- [ ] Deploy to staging and run smoke tests
+- [ ] Deploy to staging and run smoke tests (QA Automation Engineer)
+- [ ] Tech Lead review of deployment plan
 - [ ] Deploy to production (automated pipeline preferred)
-- [ ] Run post-deploy verifications
+- [ ] Run post-deploy verifications (automated and manual)
+- [ ] UX Designer validates UI/UX in production (if applicable)
+- [ ] Support Lead notified and ready to handle customer inquiries
 - [ ] Announce release to stakeholders and support
 
 ## Rollback & Incident Playbook
